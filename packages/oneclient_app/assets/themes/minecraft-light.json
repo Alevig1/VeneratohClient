@@ -1,0 +1,19 @@
+{
+  "name": "Minecraft Light",
+  "radius_scale": 0,
+  "font": "Minecraft",
+  "mono_font": "Minecraft",
+  "pixel_font_size": 10,
+  "pixel_icons": true,
+  "colors": {
+    "light": true,
+    "page": "#EFE6FF",
+    "page_elevated": "#E3D8F5",
+    "card": "#F9F4FF",
+    "component": "#E3D8F5",
+    "border": "#A3A3A34D",
+    "text": "#000000",
+    "text_secondary": "#5A4D6B",
+    "accent": "#8B5CF6"
+  }
+}

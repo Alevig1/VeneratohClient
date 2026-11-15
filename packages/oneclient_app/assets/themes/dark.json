@@ -1,0 +1,14 @@
+{
+  "name": "Veneratoh Dark",
+  "colors": {
+    "light": false,
+    "page": "#150F1F",
+    "page_elevated": "#1A1326",
+    "card": "#211830",
+    "component": "#211830",
+    "border": "#FFFFFF1A",
+    "text": "#EADCFF",
+    "text_secondary": "#8E81A6",
+    "accent": "#8B5CF6"
+  }
+}
