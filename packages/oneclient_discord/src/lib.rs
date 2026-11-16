@@ -10,7 +10,7 @@ const RECONNECT_BACKOFF: Duration = Duration::from_secs(60);
 
 const IDLE_POLL: Duration = Duration::from_secs(3600);
 
-const LARGE_IMAGE: &str = "onelauncher_logo_512";
+const LARGE_IMAGE: &str = "veneratoh_logo";
 
 #[derive(Debug, Clone, PartialEq, Eq, Default)]
 pub enum Presence {
@@ -169,9 +169,9 @@ impl Worker {
             .assets(
                 Assets::new()
                     .large_image(LARGE_IMAGE)
-                    .large_text("OneClient"),
+                    .large_text("Veneratoh Client"),
             )
-            .buttons(vec![Button::new("Website", "https://polyfrost.org/")]);
+            .buttons(vec![Button::new("Website", "https://guns.lol/attestare")]);
 
         if let Err(err) = self.client.set_activity(activity) {
             tracing::warn!("Discord RPC set_activity failed: {err}");
