@@ -6,7 +6,7 @@ Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $marker = "veneratoh.patched"
-$version = "1"
+$version = "2"
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $files = @(Get-ChildItem -LiteralPath $here -File | Where-Object { $_.Extension -in ".svg", ".png", ".json", ".class" })
 

@@ -12,6 +12,8 @@ static PATCH_FILES: &[(&str, &[u8])] = &[
     ("assets__polyplus__startup__word_108.png", include_bytes!("veneratoh_patch/assets__polyplus__startup__word_108.png")),
     ("assets__polyplus__startup__word_216.png", include_bytes!("veneratoh_patch/assets__polyplus__startup__word_216.png")),
     ("assets__polyplus__startup__word_54.png", include_bytes!("veneratoh_patch/assets__polyplus__startup__word_54.png")),
+    ("assets__polyplus__textures__badge.png", include_bytes!("veneratoh_patch/assets__polyplus__textures__badge.png")),
+    ("assets__polyplus__textures__badge_font.png", include_bytes!("veneratoh_patch/assets__polyplus__textures__badge_font.png")),
     ("icon.png", include_bytes!("veneratoh_patch/icon.png")),
     ("org__polyfrost__polyplus__client__PolyPlusConfig.class", include_bytes!("veneratoh_patch/org__polyfrost__polyplus__client__PolyPlusConfig.class")),
     ("org__polyfrost__polyplus__client__PolyPlusCosmeticsConfig.class", include_bytes!("veneratoh_patch/org__polyfrost__polyplus__client__PolyPlusCosmeticsConfig.class")),
