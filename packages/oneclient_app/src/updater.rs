@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::cell::Cell;
 
 use cargo_packager_updater::{Config, Update, WindowsConfig, check_update};
@@ -28,11 +30,9 @@ fn update_prompt(version: &str) -> Prompt<UpdateAnswer> {
 const PROGRESS_STEP: u64 = 256 * 1024;
 
 pub fn spawn_update_check(auto_install: bool, events: EventBus) {
-    tokio::spawn(async move {
-        if let Err(err) = run_check(auto_install, events).await {
-            tracing::warn!("update check failed: {err:#}");
-        }
-    });
+    // Veneratoh Client: updates only exist on the original OneClient release feed and would
+    // replace this build with the stock launcher, so the check is switched off.
+    let _ = (auto_install, events);
 }
 
 /// Debug-only drives the full auto-update UX
